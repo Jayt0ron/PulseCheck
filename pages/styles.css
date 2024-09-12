@@ -1,0 +1,60 @@
+/* INDEX */
+body.index {
+    background-color: rgb(96, 96, 245);
+}
+
+h1.indexsec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold
+}
+
+h2.index{
+    border-style: solid;
+    border-width: 7px;
+    border-color: red;
+}
+/* PAGE 1 */
+body.page1 {
+    background-color: rgb(243, 243, 51);
+}
+
+h2.page1{
+    border-style: solid;
+    border-width: 7px;
+    border-color: black
+}
+
+h1.pg1sec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold
+} 
+/* PAGE 2 */
+body.page2 {
+    background-color: rgb(75, 27, 75)
+}
+
+h1.pg2sec{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold
+}
+
+h2.page2{
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(29, 199, 29);
+}
+/* PAGE 3 */
+body.page3 {
+    background-color: rgb(202, 167, 172);
+}
+
+h1.pg3sec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold
+}
+
+h2.page3{
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgb(20, 20, 110);
+}
