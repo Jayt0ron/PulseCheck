@@ -8,15 +8,18 @@ h1.indexsec {
     font-weight:bold
 }
 
-.index:hover{
+/* Hover animation added.
+This changes the border and background to yellow and black(colors of page1) */
+.indexlink:hover{
     background-color: yellow;
+    border-color: black;
 }
 
-
-h2.index{
+/* This is meant to design around the hyperlink to page 1 */
+h2.indexlink{
     border-style: solid;
     border-width: 7px;
-    border-color: black;
+    border-color: grey;
     background-color: red;
     
 }
@@ -27,18 +30,31 @@ body.page1 {
     background-color: rgb(243, 243, 51);
 }
 
-h2.page1{
+/* pg1sec was moved to be right under body. 
+This makes the placement similar to the other pages */
+h1.pg1sec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    font-weight:bold
+} 
+
+/* Hover animation added.
+This changes the border and background to purple and green(colors of page2) */
+.pg1link:hover{
+    background-color: rgb(75, 27, 75);
+    border-color: rgb(29, 199, 29);
+}
+
+/* This is meant to design around the hyperlink to page 2 */
+h2.pg1link{
     border-style: solid;
     border-width: 7px;
     border-color: black;
     background-color: orange;
 }
 
-h1.pg1sec {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
-    font-weight:bold
-} 
 /* PAGE 2 */
+
+
 body.page2 {
     background-color: rgb(75, 27, 75)
 }
@@ -48,12 +64,24 @@ h1.pg2sec{
     font-weight:bold
 }
 
-h2.page2{
+/* Hover animation added.
+This changes the border and background to pink and blue(colors of page3) */
+.pg2link:hover{
+    background-color: rgb(202, 167, 172);
+    border-color: rgb(20, 20, 110);
+}
+
+/* This is meant to design around the hyperlink to page 3 */
+h2.pg2link{
     border-style: solid;
     border-width: 7px;
     border-color: rgb(29, 199, 29);
+    background-color: rgb(107, 106, 106)
 }
+
 /* PAGE 3 */
+
+
 body.page3 {
     background-color: rgb(202, 167, 172);
 }
@@ -63,8 +91,17 @@ h1.pg3sec {
     font-weight:bold
 }
 
-h2.page3{
+/* Hover animation added.
+This changes the border and background to purple and red */
+.pg3link:hover{
+    background-color: rgb(75, 27, 75);
+    border-color: red;
+}
+
+/* This is meant to design around the hyperlink to the YouTube video */
+h2.pg3link{
     border-style: solid;
     border-width: 7px;
     border-color: rgb(20, 20, 110);
+    background-color: rgb(214, 39, 135);
 }
