@@ -29,4 +29,4 @@ Add comments that can be used to enhance the current state of the HTML page. For
 Target level 12 indicators on the concept rubric 
 <!-- PULSE CHECK 2 UPDATES -->
 The header 2 attribute on every html page (index, page1,page2,page3) class has been changed.
-At first they shared the same class with the body but I had to change it to a new class, so I could change their background with out worrying about the body 
+At first they shared the same class with the body but I had to change it to a new class, so I could change their background with out worrying about the body background changing. 

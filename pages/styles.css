@@ -13,18 +13,19 @@ This changes the border and background to yellow and black(colors of page1) */
 .indexlink:hover{
     background-color: yellow;
     border-color: black;
+    transform: scale(1.1);
 }
 
 /* This is meant to design around the hyperlink to page 1 */
 h2.indexlink{
     border-style: solid;
-    border-width: 7px;
     border-color: grey;
     background-color: red;
-    
+    width: 400px;
+    border-width: 7px;
 }
 
-
+  
 /* PAGE 1 */
 body.page1 {
     background-color: rgb(243, 243, 51);
@@ -42,14 +43,16 @@ This changes the border and background to purple and green(colors of page2) */
 .pg1link:hover{
     background-color: rgb(75, 27, 75);
     border-color: rgb(29, 199, 29);
+    transform: scale(1.1);
 }
 
 /* This is meant to design around the hyperlink to page 2 */
 h2.pg1link{
     border-style: solid;
-    border-width: 7px;
     border-color: black;
     background-color: orange;
+    width: 400px;
+    border-width: 7px;
 }
 
 /* PAGE 2 */
@@ -69,14 +72,16 @@ This changes the border and background to pink and blue(colors of page3) */
 .pg2link:hover{
     background-color: rgb(202, 167, 172);
     border-color: rgb(20, 20, 110);
+    transform: scale(1.1);
 }
 
 /* This is meant to design around the hyperlink to page 3 */
 h2.pg2link{
     border-style: solid;
+    border-color: rgb(139, 199, 29);
+    background-color: rgb(107, 106, 106);
+    width: 400px;
     border-width: 7px;
-    border-color: rgb(29, 199, 29);
-    background-color: rgb(107, 106, 106)
 }
 
 /* PAGE 3 */
@@ -96,12 +101,21 @@ This changes the border and background to purple and red */
 .pg3link:hover{
     background-color: rgb(75, 27, 75);
     border-color: red;
+    transform: scale(1.1);
 }
 
 /* This is meant to design around the hyperlink to the YouTube video */
 h2.pg3link{
     border-style: solid;
-    border-width: 7px;
     border-color: rgb(20, 20, 110);
     background-color: rgb(214, 39, 135);
+    width: 400px;
+    border-width: 7px;
+}
+/* This is code to a back button */
+.text-container {
+    left: 20px;
+    background-color: red;
+    width: 51px;
+    border-radius: 10px;
 }
