@@ -1,8 +1,7 @@
 //////////////////////////////JavaScript For index/////////////////////////////////////////////////////
-if (window.location.href === "index.html") {
- }
-function hidePlayer() {
-    var x = document.getElementById("hideElement");
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

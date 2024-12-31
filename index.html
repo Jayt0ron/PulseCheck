@@ -10,14 +10,38 @@
     <h1 style= "text-align: center;"> Welcome</h1>
     <section>
         <center>
-            <div id="hideElement">
-                <img  height="500px" width="500px" src = https://cdn.pixabay.com/photo/2018/05/14/20/54/truck-3401529_1280.jpg>
-            </div>
-        <button onlick="hidePlayer()">Hide</button>
+        <button onclick="myFunction()">Hide</button>    
+
+        <div id="myDIV" style="display: block;">
+            <img  height="500px" width="500px" src = https://cdn.pixabay.com/photo/2018/05/14/20/54/truck-3401529_1280.jpg>
+        </div>
+        
         <h1 class="indexsec">More Than Meets The Eye!</h1>
         <!-- class "index" was changed to "indexlink" -->
         <h2 class="indexlink"><a href="\pages\page1.html">Sting like a Bee</a></h2>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i onclick="toggleLike(this)" class="fa fa-thumbs-up"></i>
+
+        <label for="commentBox">Leave a Comment:</label>
+        <textarea id="commentBox" name="commentBox" placeholder="Comment here..."></textarea>
+
+        <button type="submit" class="submit-btn">Submit Comment</button>
     </center>
     </section>
+
+<script>
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    function toggleLike(x) {
+        x.classList.toggle("fa-thumbs-down");
+    }
+</script>
 </body>
 </html>
